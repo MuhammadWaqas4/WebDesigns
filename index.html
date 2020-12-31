@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <section id="logo-section">
+                <label id="logo-name">Books
+                    
+                </label>
+                <!-- <i class="fas fa-book-open"></i> -->
+                <img src="./b3.png" id="log-img" alt="icon">
+            </section>
+            <div class="topnav" id="myTopnav">
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#contact-us">Contact Us</a>
+                <a href="#about">About</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <!-- <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#products">Products</a>
+                </li>
+                <li>
+                    <a href="#contact-us">Contact Us</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+            </ul> -->
+        </nav>
+    </header>
+    <main id="home">
+        <h1 id="main-title">AMAZING ADVENTURE OF LIFE</h1>
+        <p>WONDERFUL BOOKS</p>
+        <a href="#contact-us">Contact us</a>
+    </main>
+    <hr class="section-break">
+    <section id="products">
+        <!-- <section id="products-head"> -->
+        <h1>Our Products</h1>
+        <!-- <hr>
+        <hr> -->
+        <!-- </section> -->
+        <div id="projects">
+            <a class="profile-link" href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank">
+                <img src="./book1.jpeg" alt="Project" class="project-image" />
+                <p class="project-tile">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem magnam quae deserunt porro
+                    molestias natus sint esse fugit eum nihil.
+                </p>
+                <label class="price-text">Pirce: 4$</label>
+                <button class="read-cls">Read Now</button>
+            </a>
+
+            <a class="profile-link" href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank">
+                <img src="./book2.jpg" alt="Project" class="project-image" />
+                <p class="project-tile">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem magnam quae deserunt porro
+                    molestias natus sint esse fugit eum nihil.
+                </p>
+                <label class="price-text">Pirce: 4$</label>
+                <button class="read-cls">Read Now</button>
+            </a>
+
+            <a class="profile-link" href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank">
+                <img src="./book3.jpg" alt="Project" class="project-image" />
+                <p class="project-tile">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem magnam quae deserunt porro
+                    molestias natus sint esse fugit eum nihil.
+                </p>
+                <label class="price-text">Pirce: 4$</label>
+                <button class="read-cls">Read Now</button>
+            </a>
+
+            <a class="profile-link" href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank">
+                <img src="./book4.jpg" alt="Project" class="project-image" />
+                <p class="project-tile">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem magnam quae deserunt porro
+                    molestias natus sint esse fugit eum nihil.
+                </p>
+                <label class="price-text">Pirce: 4$</label>
+                <button class="read-cls">Read Now</button>
+            </a>
+
+            <a class="profile-link" href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank">
+                <img src="./book5.jpg" alt="Project" class="project-image" />
+                <p class="project-tile">
+                    <code><</code>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem magnam quae deserunt porro
+                    molestias natus sint esse fugit eum nihil.
+                    <code>/> </code>
+                </p>
+                <label class="price-text">Pirce: 4$</label>
+                <button class="read-cls">Read Now</button>
+
+            </a>
+
+            <a class="profile-link" href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank">
+                <img src="./book6.jpg" alt="Project" class="project-image" />
+                <p class="project-tile">
+                    <code><</code>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem magnam quae deserunt porro
+                    molestias natus sint esse fugit eum nihil.
+                    <code>/> </code>
+                </p>
+                <label class="price-text">Pirce: 4$</label>
+                <button class="read-cls">Read Now</button>
+            </a>
+
+        </div>
+    </section>
+    <section id="contact-us">
+        <hr class="section-break">
+        <h2>Contact us</h2>
+        <div class="contact-info">
+            <div class="info-logo">
+                <div class="each-logo">
+                    <img class="logo-icon" src="./add.png">
+                    <div>
+                        <h4 class="log0-tp">Address</h4>
+                        <p>Sabzazar M-block Lahore</p>
+                    </div>
+                </div>
+                <div class="each-logo">
+                    <img class="logo-icon" src="./ph.webp">
+                    <div>
+                        <h4 class="log0-tp">Phone</h4>
+                        <p>+923335086620</p>
+                    </div>
+                </div>
+                <div class="each-logo">
+                    <img class="logo-icon" src="./em.png">
+                    <div>
+                        <h4 class="log0-tp">Email</h4>
+                        <p>abc@example.com</p>
+                    </div>
+                </div>
+            </div>
+            <form class="info-form">
+                <label>Send Message</label>
+                <input class="input-tap" type="text" placeholder="Enter Name">
+                <input class="input-tap" type="email" placeholder="Enter Email">
+                <input class="input-tap" type="text" placeholder="Enter Your Message">
+                <button class="read-cls">Send</button>
+            </form>
+        </div>
+    </section>
+    <hr class="section-break">
+    <div id="about">
+        <h4>About us</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eos vero eius iure, possimus earum
+            illum ex rerum quo ipsam reprehenderit, sit tempora, inventore quae assumenda nesciunt voluptatem nisi! Modi
+            in nesciunt libero hic mollitia.
+        </p>
+    </div>
+    <hr id="foot-hr">
+    <footer>
+        <label>Copyright © 2020</label>
+        <section>
+            <a href="https://www.facebook.com/" target="_blank"><img class="im-ic" src="./fb2.jpg" target="_blank"
+                    alt="facebook"></a>
+            <a href="https://github.com/" target="_blank"> <img class="im-ic" src="./git.png" target="_blank" alt=""
+                    github></a>
+            <a href="https://twitter.com/home" target="_blank"><img class="im-ic" src="./tw.webp" target="_blank"
+                    alt="twitter"></a>
+        </section>
+    </footer>
+</body>
+
+</html>
